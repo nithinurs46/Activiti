@@ -6,8 +6,11 @@ Link - https://www.activiti.org/userguide/
 
 URL to run the process - 
 http://localhost:8080/service/task
+
 http://localhost:8080/service/conditional
+
 http://localhost:8080/service/doWhile
+
 http://localhost:8080/service/complex
 
 H2 in memory database is mandatory to hold the process execution information -
