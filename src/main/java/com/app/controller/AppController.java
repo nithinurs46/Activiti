@@ -32,6 +32,11 @@ public class AppController {
 	@Autowired
 	Sender sender;
 
+	@GetMapping("test")
+	public String testApi() {
+		return "Hello!!!"
+	}	
+
 	@GetMapping("service/task")
 	public String startTheProcessService() {
 		/*
