@@ -34,7 +34,7 @@ public class AppController {
 
 	@GetMapping("test")
 	public String testApi() {
-		return "Hello!!!"
+		return "Hello!!!";
 	}	
 
 	@GetMapping("service/task")
